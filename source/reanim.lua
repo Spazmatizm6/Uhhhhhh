@@ -7454,7 +7454,7 @@ local ContextActions = {}
 ContextActions._Actions = {}
 ContextActions._ActionsMap = {}
 do
-	local buttonsui = Instance.new("Frame", HiddenGui)
+	local buttonsui = Instance.new("Frame", SCREENGUI)
 	buttonsui.BackgroundTransparency = 1
 	buttonsui.Name = Util.RandomString()
 	buttonsui.AnchorPoint = Vector2.new(1, 1)
